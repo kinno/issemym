@@ -118,9 +118,9 @@ if (!isset($page['content']['system_main']['nodes'][$arg1]['#node']->type)) $pag
     <div class="clear"></div>
     <?php }
 }else{?>
-
+        
     <?php if (!((arg(0) == 'taxonomy' and arg(1) == 'term') and (theme_get_setting('tm_value_theme_2') == 1)) and $page['content']['system_main']['nodes'][$arg1]['#node']->type != 'page') { ?>
-	
+                <div class="brc"><?php if (isset($breadcrumb)) { print $breadcrumb; } ?></div>
 		<div class="one-third column">
       <?php if ($out = render($page['sidebar_right_top'])) { print ''.$out.''; } ?>
       <?php render($page['sidebar_right_tabs']); print ultim8magazine_set_tabs(true); ?>
@@ -142,7 +142,7 @@ if (!isset($page['content']['system_main']['nodes'][$arg1]['#node']->type)) $pag
       <?php } else { ?>
       <?php if (arg(0) == 'taxonomy' and arg(1) == 'term') print '<div class="tbb"><a href="'.url(request_path(),array('query' => array('td' => 1))).'"><img src="'.$GLOBALS['base_url'].'/'.path_to_theme().'/images/tdb.png" alt="" /></a><a href="'.url(request_path(),array('query' => array('td' => 0))).'"><img src="'.$GLOBALS['base_url'].'/'.path_to_theme().'/images/tdl.png" alt="" /></a></div>'; ?>
       <div class="blkc">
-      	<div class="brc"><?php if (isset($breadcrumb)) { print $breadcrumb; } ?></div>
+      	
         <?php if ($page['content']['system_main']['nodes'][$arg1]['#node']->type) { ?>
         <?php if ($action_links) {print '<ul class="action-links">'.render($action_links).'</ul>';}?><?php print render($page['content']); ?>
         <?php } elseif (arg(0) == 'taxonomy' and arg(1) == 'term') { ?>
