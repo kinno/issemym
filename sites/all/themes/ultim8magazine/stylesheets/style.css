@@ -739,7 +739,7 @@ ul.tmu li {
 }
 
 h3.blk1h {
-	font-size: 18px;
+	font-size: 14px; /* 18px originalmente*/
 	background: #CCC;
 	padding: 9px 20px;
 	margin: 0px;
