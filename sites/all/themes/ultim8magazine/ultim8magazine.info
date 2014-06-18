@@ -1,0 +1,40 @@
+
+name = ultim8Magazine
+description = Premium Drupal theme by <a href="http://www.themesnap.com">ThemeSnap.com</a>.
+screenshot = screenshot.png
+version = "7.x-1.0"
+core = 7.x
+
+settings[tm_value_theme_1] = 0
+settings[tm_value_theme_2] = 1
+settings[tm_value_theme_3] = right
+settings[tm_value_theme_4] = tiny
+settings[tm_value_theme_5] = description
+settings[tm_value_theme_6] = tiny
+
+regions[sidebar_social] = Sidebar Social
+regions[sidebar_header] = Header
+regions[sidebar_navgation_menu] = Sidebar Navgation Menu
+regions[sidebar_search] = Sidebar Search
+
+regions[content] = Content
+regions[sidebar_right_top] = Sidebar Right Top
+regions[sidebar_right_tabs] = Sidebar Right Tabs
+regions[sidebar_right_bottom] = Sidebar Right Bottom
+
+regions[sidebar_slideshow] = Sidebar Slide Show (Home)
+regions[home_content] = Content (Home)
+
+regions[footer_one] = Footer One
+regions[footer_two] = Footer Two
+regions[footer_three] = Footer Three
+regions[footer_four] = Footer Four
+regions[footer_copyright] = Footer Copyright
+
+stylesheets[all][] = stylesheets/base.css
+stylesheets[all][] = stylesheets/skeleton.css
+stylesheets[all][] = stylesheets/layout.css
+stylesheets[all][] = stylesheets/style.css
+
+scripts[] = javascripts/tabs.js
+scripts[] = javascripts/script.js
