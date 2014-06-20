@@ -31,10 +31,12 @@ regions[footer_three] = Footer Three
 regions[footer_four] = Footer Four
 regions[footer_copyright] = Footer Copyright
 
+stylesheets[all][] = stylesheets/estilosISSEMyM.css
 stylesheets[all][] = stylesheets/base.css
 stylesheets[all][] = stylesheets/skeleton.css
 stylesheets[all][] = stylesheets/layout.css
 stylesheets[all][] = stylesheets/style.css
+
 
 scripts[] = javascripts/tabs.js
 scripts[] = javascripts/script.js

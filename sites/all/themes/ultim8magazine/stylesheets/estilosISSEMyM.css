@@ -1,0 +1,16 @@
+/* 
+    Document   : estilosISSEMyM
+    Created on : 20/06/2014, 10:27:22 AM
+    Author     : admin
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.tablasISSEMyM{
+    border: #000 solid 1px;
+}
+
+.tablasISSEMyM td{
+    padding: 5px;
+}
+
